@@ -1,0 +1,8 @@
+*.raw
+*.db
+.DS_Store
+*.aux
+*.out
+*.synctex.gz
+__pycache__/
+report/*.log
