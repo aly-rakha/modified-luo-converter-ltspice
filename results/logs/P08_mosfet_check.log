@@ -1,0 +1,42 @@
+LTspice 26.0.2 for MacOS
+Circuit: P08_mosfet_check.net
+Start Time: Tue Oct 27 16:29:41 2026
+Options:plotwinsize=0
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+.OP point found by inspection.
+.OP point found by inspection.
+Total elapsed time: 229.424 seconds.
+
+Files loaded:
+P08_mosfet_check.net
+standard.dio
+standard.mos
+
+vout_avg: AVG(V(n007) )=295.102534534 FROM 0.39 TO 0.4
+il1_avg: AVG(I(L1) )=1.63841259051 FROM 0.39 TO 0.4
+il2_avg: AVG(I(L2) )=0.32458416763 FROM 0.39 TO 0.4
+il1_min: MIN(I(L1) )=1.57461571693 FROM 0.39 TO 0.4
+il2_min: MIN(I(L2) )=0.259973913431 FROM 0.39 TO 0.4
+il1_ripple: PP(I(L1) )=0.124761223793 FROM 0.3999 TO 0.4
+il2_ripple: PP(I(L2) )=0.124458014965 FROM 0.3999 TO 0.4
+vout_ripple: PP(V(n007) )=0.0794372558594 FROM 0.3999 TO 0.4
+vout_ripple_pct: 100*Vout_ripple/Vout_avg=0.0269185271434
+vc1_avg: AVG(V(n001,n008) )=48.9301157788 FROM 0.39 TO 0.4
+vc2_avg: AVG(V(n005) )=148.08057853 FROM 0.39 TO 0.4
+vc3_avg: AVG(V(n002,n001) )=49.2816293155 FROM 0.39 TO 0.4
+vc4_avg: AVG(V(n006) )=197.269233407 FROM 0.39 TO 0.4
+vc5_avg: AVG(V(n003,n002) )=97.8522151848 FROM 0.39 TO 0.4
+vswitch_max: MAX(V(n008) )=100.320755005 FROM 0.39 TO 0.4
+vswitch_startup_max: MAX(V(n008) )=168.672683716 FROM 0 TO 0.1
+pin: AVG((-V(n004)*I(Vin)) )=98.1466664061 FROM 0.39 TO 0.4
+pout: AVG((V(n007)*V(n007)/909.09) )=95.7941527387 FROM 0.39 TO 0.4
+ploss: Pin-Pout=2.35251366741
+efficiency_pct: 100*Pout/Pin=97.6030630957
+pgate: AVG((-V(n009)*I(V1)) )=0.0196130957916 FROM 0.39 TO 0.4
+pin_total: Pin+Pgate=98.1662795019
+ploss_total: Pin_total-Pout=2.3721267632
+efficiency_total_pct: 100*Pout/Pin_total=97.5835625275
