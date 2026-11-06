@@ -1,0 +1,7 @@
+# LTspice schematic/plot formats share extensions with unrelated languages.
+*.asc text linguist-detectable=false
+*.plt text linguist-detectable=false
+*.net text linguist-detectable=false
+results/logs/* linguist-generated=true
+report/*.pdf binary
+*.png binary
